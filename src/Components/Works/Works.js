@@ -11,7 +11,7 @@ const Works = () => {
             <p>Every digital artwork on Upside is authentic and truly unique. Blockchain technology makes this new aproach to digital ownership possible.</p>
         </div>
         <div className='image'>
-          <img src={Market}/>
+          <img src={Market} alt=''/>
         </div>
         <Advert/>
     </div>

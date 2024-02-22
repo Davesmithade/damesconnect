@@ -2,12 +2,12 @@ import React from 'react';
 // import Coin from '../Coin/Coin';
 import '../Routes/route.scss'
 import BlockChain from "../Assets/hero-img-home-2.png";
-import { FaArrowUp, FaWarehouse, FaCoins  } from 'react-icons/fa';
+// import { FaArrowUp, FaWarehouse, FaCoins  } from 'react-icons/fa';
 import { MdOutlineTravelExplore, MdConnectedTv, MdDevicesOther } from "react-icons/md";
 import { GrValidate, GrStakeholder } from "react-icons/gr";
 import { AiOutlineIssuesClose } from "react-icons/ai";
 import { TbClock2, TbBrandTorchain, TbIrregularPolyhedron  } from "react-icons/tb";
-import { FaScaleUnbalanced } from "react-icons/fa6";
+import { FaCoins, FaScaleUnbalanced, FaWarehouse } from "react-icons/fa6";
 import { GiWantedReward, GiWhiteTower, GiLockedHeart, GiTrade } from "react-icons/gi";
 import { IoMdSwap } from "react-icons/io";
 import { SiAcclaim } from "react-icons/si";
@@ -91,13 +91,13 @@ const Selection = [
     id: 3,
     title: 'Assets Recovery',
     paragraph: 'Click here for assets recovery issues',
-    icon: <FaWarehouse />
+    icon: <FaWarehouse/>
   },
   {
     id: 4,
     title: 'General Issues',
     paragraph: 'Click here for general related issues.',
-    icon: <AiOutlineIssuesClose />
+    icon: <AiOutlineIssuesClose/>
   },
   {
     id: 5,
@@ -211,7 +211,7 @@ const Selection = [
     id: 23,
     title: 'Unable To Buy Coins/Tokens',
     paragraph: 'To trade crypto your account must be marked as a trusted payment source.',
-    icon: <div><FaCoins /></div>
+    icon: <div><FaCoins/></div>
     
   },
   {

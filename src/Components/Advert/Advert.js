@@ -12,11 +12,11 @@ const Advert = () => {
     <motion.div className='advert'>
         <motion.div className='advertPicture'>
           <motion.div className='pictureOne'>
-            <motion.img src={Person} initial={{scale: 1.1}} whileInView={{scale:1}} transition={{duration:2, delay:1}}/>
-            <motion.div className='invitae' initial={{x: 50}} whileInView={{x: 0}} transition={{duration:1, delay:1}}><img src={Invitae}/></motion.div>
+            <motion.img src={Person} alt='' initial={{scale: 1.1}} whileInView={{scale:1}} transition={{duration:2, delay:1}}/>
+            <motion.div className='invitae' initial={{x: 50}} whileInView={{x: 0}} transition={{duration:1, delay:1}}><img src={Invitae} alt=''/></motion.div>
           </motion.div>
           <motion.div className='pictureTwo'>
-            <motion.div className='lady' initial={{scale: 1.1}} whileInView={{scale:1}} transition={{duration:2, delay:1}}><img src={Lady}/></motion.div>
+            <motion.div className='lady' initial={{scale: 1.1}} whileInView={{scale:1}} transition={{duration:2, delay:1}}><img src={Lady} alt=''/></motion.div>
             <motion.img src={Gemini} initial={{x: -50}} whileInView={{x: 0}} transition={{duration:1, delay:1}}/>
           </motion.div>
         </motion.div>
